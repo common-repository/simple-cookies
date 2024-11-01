@@ -1,0 +1,45 @@
+@import 'modules/tabs';
+
+#adminmenu .wp-menu-image img {
+    width: 20px;
+    height: 34px;
+    padding: 0 !important;
+}
+
+$color-grey: #757575;
+
+.color-grey {
+    color: $color-grey;
+}
+
+.sc {
+    &__menu-heading {
+        margin-bottom: 10px !important;
+        font-weight: 700;
+    }
+    code {
+        padding: 2px 4px;
+        font-size: 90%;
+        color: #c7254e;
+        background-color: #f9f2f4;
+        border-radius: 3px;
+    }
+
+    b {
+        color: #000000;
+        font-weight: 700;
+    }
+
+    &-tabs {
+        &__item {
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+    }
+
+    span {
+        font-weight: 700;
+    }
+    
+}
+    

@@ -1,0 +1,14 @@
+{
+	"name": "simplecookies/simple-cookies",
+	"description": "WordPress Plugin Allows you to implement the functionality of dynamic content and progressive profiling on the site and work with cookies for those marketers ",
+	"type": "project",
+	"license": "GPL-3.0",
+	"minimum-stability": "dev",
+	"require": {},
+	"require-dev": {},
+	"autoload": {
+		"psr-4": {
+			"Simple_Cookies\\": "./inc"
+		}
+	}
+}
